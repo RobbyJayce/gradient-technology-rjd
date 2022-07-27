@@ -87,7 +87,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 180vh;
+    max-height: 240vh;
 }
 
 .nav-wrapper {
@@ -97,7 +97,8 @@ header {
 }
 
 .nav__logo {
-  max-width: 160px;
+    width: 50%;
+    max-width: 100%;
 }
 
 /* hero */
@@ -105,6 +106,7 @@ header {
 .hero__content {
     padding-block: 40px 20px;
     text-align: center;
+    font-size: clamp(1em, 3vw, 2em);
 }
 
 .hero__title {
@@ -113,9 +115,12 @@ header {
     font-family: var(--fnt-audio);
     font-size: var(--fnt-400);
     line-height: 0.9em;
-    max-width: 220px;
-    text-align-last: right;
+    text-align-last: center;
     text-transform: uppercase;
+}
+
+.hero__title span{
+    margin-left: 30%;
 }
 
 .hero__sub {
@@ -126,10 +131,11 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: clamp(25em, 1vw, 28em);
     justify-content: center;
     margin: 0 auto;
-    width: 270px;
+    width: clamp(25em, 1vw, 28em);
+
 }
 
 .hero__sub-title {
@@ -162,8 +168,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
