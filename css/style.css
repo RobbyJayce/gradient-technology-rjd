@@ -87,7 +87,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 135vh;
+    max-height: 180vh;
 }
 
 .nav-wrapper {
@@ -106,7 +106,6 @@ header {
     padding-block: 40px 20px;
     text-align: center;
 }
-
 
 .hero__title {
     color: var(--clr-primary);
@@ -154,6 +153,8 @@ header {
     font-family: var(--fnt-pop);
     text-align: justify;
     line-height: 1.2em;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .hero__footer {
@@ -176,3 +177,9 @@ header {
     font-weight: 600;
     color: #2a252c;
 }
+
+.hero__img-con {
+    margin-inline: auto;
+    max-width: 500px;
+}
+
