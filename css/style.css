@@ -8,6 +8,14 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 :root {
     --fnt-audio: 'Audiowide', cursive;
     --fnt-pop: 'Poppins', sans-serif;
@@ -33,6 +41,44 @@ body {
    font-size: 30px;
    color: #fff;
 }
+
+#xmark {
+   color: var(--clr-white);
+   font-size: 25px;
+   margin-left: auto;
+  padding: 25px;
+}
+
+#menu {
+    align-items: flex-start;
+    background: darkslategray;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding-top: 80px;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 0.3s;
+    width: 0;
+}
+
+#menu.active {
+    width: 300px;
+}
+
+#menu a{
+   color: var(--clr-primary);
+   font-family: var(--fnt-audio);
+   font-size: 3em;
+}
+
+#menu li{
+   margin: 15px;
+   margin-left: 50px;
+ }
 
 /* nav */
 
