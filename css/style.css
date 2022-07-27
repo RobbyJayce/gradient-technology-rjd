@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+:root {
+    --fnt-audio: 'Audiowide', cursive;
+    --fnt-pop: 'Poppins', sans-serif;
+    --fnt-300: 3.7em;
+    --fnt-400: 4.5em;
+    --fnt-500: 50em;
+    --fnt-xl: 15.8em;
+    --fnt-xxl: 16.9em;
+    --clr-primary: #55caff;
+    --clr-white: #fff;
+}
+
+body {
+    background: darkgray;
+}
+
+.container {
+    padding: 25px 20px;
+    margin-inline: auto;
+}
+
+#bars {
+   font-size: 30px;
+   color: #fff;
+}
+
+/* nav */
+
+nav {
+    background-image: url('/img/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+  max-width: 160px;
+}
+
+/* hero */
+
+.hero__content {
+    padding-block: 40px 20px;
+    text-align: center;
+}
+
+
+.hero__title {
+    color: var(--clr-primary);
+    display: inline-block;
+    font-family: var(--fnt-audio);
+    font-size: var(--fnt-400);
+    line-height: 0.9em;
+    max-width: 220px;
+    text-align-last: right;
+    text-transform: uppercase;
+}
+
+.hero__sub {
+    align-items: center;
+    background-image: url('/img/dashed-circle.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 270px;
+}
+
+.hero__sub-title {
+    font-family: var(--fnt-pop);
+    font-size: 2em;
+    color: var(--clr-white);
+    text-align: center;
+    line-height: 1.1em;
+}
+
+.hero__sub-title span{
+    color: var(--clr-primary);
+    font-size: 2.4em;
+    font-weight: 700;
+    line-height: 1.1em;
+}
+
+.hero__txt {
+    font-size: 1.2em;
+    color: var(--clr-white);
+    font-family: var(--fnt-pop);
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.hero__footer {
+    background-image: url('/img/rectangle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-block: 20px;
+}
+
+.hero__footer-txt {
+    font-size: 1.5em;
+    font-family: var(--fnt-pop);
+    font-weight: 600;
+    color: #2a252c;
+}
